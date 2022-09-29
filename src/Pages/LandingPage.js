@@ -20,7 +20,7 @@ const Landing = () => {
           <img className="image1" src="landing-page-image-asset.svg" alt="" />
         </div>
         <div className="event-btn">
-          <a href="/">
+          <a href="/events">
             <button className="btn-style">🎉 Create my event</button>
           </a>
         </div>
