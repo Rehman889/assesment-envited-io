@@ -18,12 +18,12 @@ const Events = () => {
             </h1>
             <div className="clasify1">
               <p className="">🎉 My event is called</p>
-              <input name="eventName" maxLength="30" className="" />
+              <input name="eventName" maxLength="30" className="clasify-int" />
               <p className="">🗓 It starts at</p>
               <div className="">
                 <div className="react-datepicker-wrapper">
                   <div className="react-datepicker__input-container">
-                    <input type="text" id="startTime" className="w-full" />
+                    <input type="text" id="startTime" className="clasify-int" />
                   </div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const Events = () => {
               <div className="">
                 <div className="react-datepicker-wrapper">
                   <div className="react-datepicker__input-container">
-                    <input type="text" className="w-full" />
+                    <input type="text" className="clasify-int" />
                   </div>
                 </div>
               </div>
@@ -55,6 +55,7 @@ const Events = () => {
                   aria-autocomplete="list"
                   aria-expanded="false"
                   placeholder="Location"
+                  className="clasify-int"
                 />
               </div>
             </div>
@@ -63,7 +64,7 @@ const Events = () => {
                 🔗 Add a URL link
                 <span className="font-light text-grey-500"> (optional)</span>
               </p>
-              <input name="url" placeholder="URL" className="" />
+              <input name="url" placeholder="URL" className="clasify-int" />
               <p className="">
                 ✏️ Description
                 <span className="font-light text-grey-500"> (optional)</span>
@@ -72,6 +73,7 @@ const Events = () => {
                 rows="4"
                 name="description"
                 style={{ height: "60px !important" }}
+                className="clasify-int"
               ></textarea>
             </div>
           </section>

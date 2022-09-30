@@ -163,6 +163,8 @@ border: none;
   align-items: center;
   padding: 4rem;
   gap: 2rem;
+  margin-top: -5rem;
+
 
   
 }
@@ -204,4 +206,14 @@ border: none;
   margin: 2rem;
   display: block;
   align-items: center;
+}
+
+.clasify-int{
+  padding: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  line-height: 1.45rem;
+  font-size: 19px;
+  background: #ede6ed;
+  border: none;
 }
