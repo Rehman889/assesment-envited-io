@@ -23,7 +23,11 @@ const Events = () => {
               <div className="">
                 <div className="react-datepicker-wrapper">
                   <div className="react-datepicker__input-container">
-                    <input type="text" id="startTime" className="clasify-int" />
+                    <input
+                      type="datetime-local"
+                      id="startTime"
+                      className="clasify-int"
+                    />
                   </div>
                 </div>
               </div>
@@ -36,7 +40,11 @@ const Events = () => {
               <div className="">
                 <div className="react-datepicker-wrapper">
                   <div className="react-datepicker__input-container">
-                    <input type="text" className="clasify-int" />
+                    <input
+                      type="datetime-local"
+                      id="endTime"
+                      className="clasify-int"
+                    />{" "}
                   </div>
                 </div>
               </div>
