@@ -214,6 +214,10 @@ border: none;
   width: 100%;
   line-height: 1.45rem;
   font-size: 19px;
-  background: #ede6ed;
+  background: #E0E0E0;
   border: none;
+}
+
+.clasify-int:hover{
+  background-color: #CCB6FF;
 }
