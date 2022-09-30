@@ -170,17 +170,38 @@ border: none;
 .sec-left{
   display: flex;
   align-items: center;
-  width: 65%;
+  width: 60%;
 }
 
 .sec-right{
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 40%;
 }
 
 .sec-img{
-  width: 50%;
+  width: 100%;
   display: flex;
+  align-items: center;
+}
+
+.clasify1{
+    text-align: left;
+    margin: 2rem;
+    display: block;
+    align-items: center;
+}
+
+.clasify2{
+  text-align: left;
+  margin: 2rem;
+  display: block;
+  align-items: center;
+}
+
+.clasify3{
+  text-align: left;
+  margin: 2rem;
+  display: block;
   align-items: center;
 }

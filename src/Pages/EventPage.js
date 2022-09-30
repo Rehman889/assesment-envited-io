@@ -16,56 +16,64 @@ const Events = () => {
             <h1 className="hidden font-semibold text-left lg:block mb-9 text-text-primary text-md md:text-5xl mytitle">
               Create your event
             </h1>
-            <p className="">🎉 My event is called</p>
-            <input name="eventName" maxLength="30" className="" />
-            <p className="">🗓 It starts at</p>
-            <div className="">
-              <div className="react-datepicker-wrapper">
-                <div className="react-datepicker__input-container">
-                  <input type="text" id="startTime" className="w-full" />
+            <div className="clasify1">
+              <p className="">🎉 My event is called</p>
+              <input name="eventName" maxLength="30" className="" />
+              <p className="">🗓 It starts at</p>
+              <div className="">
+                <div className="react-datepicker-wrapper">
+                  <div className="react-datepicker__input-container">
+                    <input type="text" id="startTime" className="w-full" />
+                  </div>
                 </div>
               </div>
             </div>
-            <p className="">
-              🏁 It ends at
-              <span className="font-light text-grey-500"> (optional)</span>
-            </p>
-            <div className="">
-              <div className="react-datepicker-wrapper">
-                <div className="react-datepicker__input-container">
-                  <input type="text" className="w-full" />
+            <div className="clasify2">
+              <p>
+                🏁 It ends at
+                <span className="font-light text-grey-500"> (optional)</span>
+              </p>
+              <div className="">
+                <div className="react-datepicker-wrapper">
+                  <div className="react-datepicker__input-container">
+                    <input type="text" className="w-full" />
+                  </div>
                 </div>
               </div>
             </div>
-            <p className="">
-              📍 It’s happening at
-              <span className="font-light text-grey-500"> (optional)</span>
-            </p>
-            <div className="mb-2">
-              <input
-                name="location"
-                type="text"
-                autoComplete="off"
-                role="combobox"
-                aria-autocomplete="list"
-                aria-expanded="false"
-                placeholder="Location"
-              />
+            <div className="clasify3">
+              <p>
+                📍 It’s happening at
+                <span className="font-light text-grey-500"> (optional)</span>
+              </p>
+              <div className="mb-2">
+                <input
+                  name="location"
+                  type="text"
+                  autoComplete="off"
+                  role="combobox"
+                  aria-autocomplete="list"
+                  aria-expanded="false"
+                  placeholder="Location"
+                />
+              </div>
             </div>
-            <p className="">
-              🔗 Add a URL link
-              <span className="font-light text-grey-500"> (optional)</span>
-            </p>
-            <input name="url" placeholder="URL" className="" />
-            <p className="">
-              ✏️ Description
-              <span className="font-light text-grey-500"> (optional)</span>
-            </p>
-            <textarea
-              rows="4"
-              name="description"
-              style={{ height: "60px !important" }}
-            ></textarea>
+            <div className="clasify2">
+              <p className="">
+                🔗 Add a URL link
+                <span className="font-light text-grey-500"> (optional)</span>
+              </p>
+              <input name="url" placeholder="URL" className="" />
+              <p className="">
+                ✏️ Description
+                <span className="font-light text-grey-500"> (optional)</span>
+              </p>
+              <textarea
+                rows="4"
+                name="description"
+                style={{ height: "60px !important" }}
+              ></textarea>
+            </div>
           </section>
         </div>
         <div className="sec-right">
